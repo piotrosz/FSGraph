@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C# Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FSGraph.WPF", "FSGraph.WPF\FSGraph.WPF.csproj", "{C230B234-5366-4BAD-83E7-DB4C2B61DFF6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{52065A98-EE29-4725-B28F-9C759357BD52}"
+	ProjectSection(SolutionItems) = preProject
+		assemblies\Release\GraphSharp.Contracts.dll = assemblies\Release\GraphSharp.Contracts.dll
+		assemblies\Release\GraphSharp.Contracts.pdb = assemblies\Release\GraphSharp.Contracts.pdb
+		assemblies\Release\GraphSharp.Controls.dll = assemblies\Release\GraphSharp.Controls.dll
+		assemblies\Release\GraphSharp.dll = assemblies\Release\GraphSharp.dll
+		assemblies\Release\GraphSharp.pdb = assemblies\Release\GraphSharp.pdb
+		assemblies\Release\Microsoft.Contracts.dll = assemblies\Release\Microsoft.Contracts.dll
+		assemblies\Release\QuickGraph.dll = assemblies\Release\QuickGraph.dll
+		assemblies\Release\WPFExtensions.dll = assemblies\Release\WPFExtensions.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C230B234-5366-4BAD-83E7-DB4C2B61DFF6}.Debug|x86.ActiveCfg = Debug|x86
+		{C230B234-5366-4BAD-83E7-DB4C2B61DFF6}.Debug|x86.Build.0 = Debug|x86
+		{C230B234-5366-4BAD-83E7-DB4C2B61DFF6}.Release|x86.ActiveCfg = Release|x86
+		{C230B234-5366-4BAD-83E7-DB4C2B61DFF6}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
