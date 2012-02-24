@@ -8,5 +8,5 @@ It uses:
 * [GraphSharp](http://graphsharp.codeplex.com)
 * [QuickGraph](http://quickgraph.codeplex.com)
 
-![Screenshot](http://if.pw.edu.pl/~ludwik/fsgraph.png)
+![Screenshot](http://if.pw.edu.pl/~ludwik/fsgraph2.png)
 
