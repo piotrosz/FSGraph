@@ -75,6 +75,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Extensions.cs" />
     <Compile Include="GraphCreator.cs" />
     <Compile Include="GraphModel\FSEdge.cs" />
     <Compile Include="GraphModel\FSGraph.cs" />

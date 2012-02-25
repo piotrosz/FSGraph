@@ -14,7 +14,7 @@ namespace fsgraph.WPF.ViewModel
     {
         private string layoutAlgorithmType;
         private FSGraph graph;
-        private string directory = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+        private string directory = Environment.GetFolderPath(Environment.SpecialFolder.MyComputer);
         private List<string> layoutAlgorithmTypes;
 
         public void ReLayoutGraph()

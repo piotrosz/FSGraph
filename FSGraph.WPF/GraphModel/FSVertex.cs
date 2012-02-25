@@ -15,18 +15,18 @@ namespace fsgraph.WPF.GraphModel
     {
         public string Name { get; private set; }
         public string FullName { get; private set; }
-        public long Size { get; private set; }
+        public string FriendlySize { get; private set; }
         public VertexType VertexType { get; private set; }
         public DateTime Created { get; set; }
         public DateTime Accessed { get; set; }
         public DateTime Modified { get; set; }
 
-        public FSVertex(string name, string fullName, long size, VertexType vertexType,
+        public FSVertex(string name, string fullName, string friendlySize, VertexType vertexType,
             DateTime created, DateTime accessed, DateTime modified)
         {
             this.Name = name;
             this.FullName = fullName;
-            this.Size = size;
+            this.FriendlySize = friendlySize;
             this.VertexType = vertexType;
             this.Created = created;
             this.Accessed = accessed;

@@ -12,10 +12,13 @@
                 <Ellipse ToolTip="" x:Name="ellipse1" Fill="Yellow" Height="10" Width="10" 
                  StrokeThickness="1" Stroke="Black"/>
                 <TextBlock Text="{Binding Path=Name, Mode=OneWay}" Foreground="White"/>
+                <TextBlock Text=" ("/>
+                <TextBlock Text="{Binding Path=FriendlySize, Mode=OneWay}" Foreground="YellowGreen"/>
+                <TextBlock Text=")"/>
             </StackPanel>
             <DataTemplate.Triggers>
                 <DataTrigger Binding="{Binding VertexType}" Value="File">
-                    <Setter TargetName="ellipse1" Property="Fill" Value="Blue"/>
+                    <Setter TargetName="ellipse1" Property="Fill" Value="Red"/>
                 </DataTrigger>
             </DataTemplate.Triggers>
         </DataTemplate>
@@ -27,7 +30,7 @@
             <Setter Property="FontSize" Value="10"/>
             <Setter Property="FontFamily" Value="Verdana"/>
         </Style>
-        
+
         <Style TargetType="{x:Type graphsharp:VertexControl}">
             <Setter Property="Template">
                 <Setter.Value>
